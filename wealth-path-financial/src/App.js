@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import TopSection from "./TopSection";
+import TopBar from "./TopBar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Wealth Path Financial</h1>
+      <TopBar />
+      <TopSection />
     </div>
   );
 }

@@ -1,0 +1,34 @@
+.top-bar-container {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(68, 62, 48);
+  font-family: "EB Garamond";
+}
+
+.top-bar-options {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #0f6bac;
+  margin: 0px 10px;
+}
+
+.nav-link:hover {
+  color: #0a4d7c;
+}
+
+.logo-gold-wide {
+  width: 350px;
+}
